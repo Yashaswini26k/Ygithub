@@ -1,0 +1,1 @@
+﻿alter table serviceprovider add rating int,comment varchar(100);

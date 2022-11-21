@@ -1,0 +1,1 @@
+﻿select users.name,email,mobile,city,location,address,zipcode servicesname as ProviderName,description,status from users cross join services where users.roleid=3;
